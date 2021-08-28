@@ -22,7 +22,7 @@ function counting() {
     secondsEl.innerHTML = formatTime(seconds);
 }
 
-//allows zeros to be displayed
+//allows zeros to be displayed when less than ten
 function formatTime(time) {
     return time < 10 ? `0${time}` : time;
 }
